@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://campori2025.com.br/sitemap.xml 

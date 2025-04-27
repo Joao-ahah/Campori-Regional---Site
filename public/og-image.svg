@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Fundo gradiente -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#01232a" />
+      <stop offset="100%" stop-color="#00333e" />
+    </linearGradient>
+    <pattern id="pattern-stars" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="50" cy="50" r="1" fill="#df8e23" opacity="0.5" />
+      <circle cx="25" cy="25" r="1" fill="#df8e23" opacity="0.7" />
+      <circle cx="75" cy="75" r="1" fill="#df8e23" opacity="0.3" />
+      <circle cx="85" cy="15" r="1" fill="#df8e23" opacity="0.6" />
+      <circle cx="15" cy="85" r="1" fill="#df8e23" opacity="0.4" />
+    </pattern>
+  </defs>
+  
+  <!-- Fundo -->
+  <rect width="1200" height="630" fill="url(#bg-gradient)" />
+  <rect width="1200" height="630" fill="url(#pattern-stars)" />
+  
+  <!-- Logo -->
+  <g transform="translate(250, 150) scale(0.6)">
+    <circle cx="256" cy="256" r="240" fill="#01232a" />
+    <circle cx="256" cy="256" r="220" fill="#00333e" />
+    
+    <g fill="#df8e23">
+      <path d="M256 60 L266 95 L246 95 Z" />
+      <path d="M452 256 L417 266 L417 246 Z" />
+      <path d="M256 452 L246 417 L266 417 Z" />
+      <path d="M60 256 L95 246 L95 266 Z" />
+      
+      <text x="253" y="50" font-family="Arial" font-weight="bold" font-size="24" text-anchor="middle">N</text>
+      <text x="462" y="261" font-family="Arial" font-weight="bold" font-size="24" text-anchor="middle">L</text>
+      <text x="253" y="474" font-family="Arial" font-weight="bold" font-size="24" text-anchor="middle">S</text>
+      <text x="40" y="261" font-family="Arial" font-weight="bold" font-size="24" text-anchor="middle">O</text>
+    </g>
+    
+    <g transform="rotate(45, 256, 256)">
+      <path d="M256 130 L296 256 L256 382 L216 256 Z" fill="#df8e23" />
+      <path d="M256 130 L256 382 L216 256 Z" fill="#ffffff" opacity="0.7" />
+    </g>
+    
+    <circle cx="256" cy="256" r="30" fill="#01232a" stroke="#df8e23" stroke-width="5" />
+    <circle cx="256" cy="256" r="15" fill="#df8e23" />
+    
+    <circle cx="256" cy="256" r="240" fill="none" stroke="#df8e23" stroke-width="5" />
+    <circle cx="256" cy="256" r="220" fill="none" stroke="#df8e23" stroke-width="2" stroke-dasharray="10,5" />
+    
+    <path id="circle-text-path" d="M256,380 A125,125 0 0,1 131,255 A125,125 0 0,1 256,130 A125,125 0 0,1 381,255 A125,125 0 0,1 256,380 Z" fill="none" />
+    <text font-family="Arial" font-weight="bold" font-size="24" fill="#df8e23">
+      <textPath href="#circle-text-path" startOffset="1%">CAMPORI DE DESBRAVADORES 2025</textPath>
+    </text>
+  </g>
+  
+  <!-- Título e Data -->
+  <text x="600" y="220" font-family="Arial" font-weight="bold" font-size="70" fill="#df8e23" text-anchor="middle">CAMPORI 2025</text>
+  <text x="600" y="280" font-family="Arial" font-weight="bold" font-size="40" fill="white" text-anchor="middle">AVENTURA COM PROPÓSITO</text>
+  <text x="600" y="360" font-family="Arial" font-weight="normal" font-size="30" fill="#df8e23" text-anchor="middle">15 a 18 de Outubro de 2025</text>
+  
+  <!-- Elementos decorativos -->
+  <rect x="350" y="310" width="500" height="2" fill="#df8e23" opacity="0.7" />
+  
+  <!-- Call to action -->
+  <text x="600" y="430" font-family="Arial" font-weight="normal" font-size="26" fill="white" text-anchor="middle">Um evento que marcará sua vida com aventuras,</text>
+  <text x="600" y="470" font-family="Arial" font-weight="normal" font-size="26" fill="white" text-anchor="middle">amizades e crescimento espiritual.</text>
+  
+  <!-- URL -->
+  <rect x="400" y="520" width="400" height="50" rx="25" fill="#df8e23" />
+  <text x="600" y="555" font-family="Arial" font-weight="bold" font-size="24" fill="white" text-anchor="middle">campori2025.com.br</text>
+</svg> 

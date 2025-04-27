@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --color-campori-orange: #df8e23;
+  --color-campori-dark-blue: #01232a;
+  --color-campori-dark-teal: #00333e;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-campori-dark-blue text-white;
+    font-family: var(--font-sans);
+    background-color: var(--color-campori-dark-blue);
+    color: white;
+  }
+
+  /* Links e botões */
+  a {
+    @apply text-campori-orange hover:text-white transition-colors;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-white;
+  }
+}
+
+@layer components {
+  .container-section {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16;
+  }
+  
+  .btn {
+    @apply px-6 py-3 rounded-md font-medium transition-all duration-300;
+  }
+  
+  .btn-primary {
+    @apply bg-campori-orange text-white hover:bg-campori-orange/90;
+  }
+  
+  .btn-secondary {
+    @apply bg-campori-dark-teal text-white hover:bg-campori-dark-teal/90;
+  }
+  
+  .section-title {
+    @apply text-4xl font-bold mb-8 text-center text-campori-orange;
+  }
+
+  /* Elementos de navegação */
+  .nav-link {
+    @apply text-white hover:text-campori-orange transition-colors;
+  }
+
+  .nav-link.active {
+    @apply text-campori-orange;
+  }
+
+  /* Cards e elementos de UI */
+  .card {
+    @apply bg-campori-dark-teal/30 rounded-lg overflow-hidden shadow-lg;
+  }
+}
+
+/* Animações */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Estilos para resolver problemas de compatibilidade */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--color-campori-dark-blue);
+  color: white;
+}

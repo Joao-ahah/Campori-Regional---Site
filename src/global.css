@@ -1,0 +1,80 @@
+/* Estilos globais forçados */
+body, #root {
+  background-color: #01232a;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Links e botões */
+a {
+  color: #df8e23;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+/* Cores personalizadas */
+.bg-campori-orange {
+  background-color: #df8e23;
+}
+
+.bg-campori-dark-blue {
+  background-color: #01232a;
+}
+
+.bg-campori-dark-teal {
+  background-color: #00333e;
+}
+
+.text-campori-orange {
+  color: #df8e23;
+}
+
+/* Botões */
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #df8e23;
+  color: white;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-secondary {
+  background-color: #00333e;
+  color: white;
+}
+
+.btn-secondary:hover {
+  opacity: 0.9;
+}
+
+/* Classes de layout */
+.container-section {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4rem 1rem;
+}
+
+/* Classes de texto */
+.section-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #df8e23;
+} 
