@@ -20,14 +20,15 @@ const ParticlesBackground = () => {
     
     window.addEventListener('resize', handleResize);
     
-    if (!canvasRef.current) return;
-    
     const canvas = canvasRef.current;
+    if (!canvas) return;
+    
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
     
     // Ajusta o tamanho do canvas ao tamanho da janela
     const resizeCanvas = () => {
+      if (!canvas) return;
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
     };
@@ -42,8 +43,12 @@ const ParticlesBackground = () => {
       color: string;
 
       constructor() {
-        this.x = Math.random() * canvas.width;
-        this.y = Math.random() * canvas.height;
+        // Garantir que canvas não seja null
+        const canvasWidth = canvas ? canvas.width : window.innerWidth;
+        const canvasHeight = canvas ? canvas.height : window.innerHeight;
+        
+        this.x = Math.random() * canvasWidth;
+        this.y = Math.random() * canvasHeight;
         this.size = Math.random() * 3 + 1;
         this.speedX = Math.random() * 0.5 - 0.25;
         this.speedY = Math.random() * 0.5 - 0.25;
@@ -54,17 +59,21 @@ const ParticlesBackground = () => {
         this.x += this.speedX;
         this.y += this.speedY;
 
-        // Rebate nas bordas da tela
-        if (this.x > canvas.width || this.x < 0) {
+        // Rebate nas bordas da tela (garantindo que canvas não seja null)
+        const canvasWidth = canvas ? canvas.width : window.innerWidth;
+        const canvasHeight = canvas ? canvas.height : window.innerHeight;
+        
+        if (this.x > canvasWidth || this.x < 0) {
           this.speedX = -this.speedX;
         }
-        if (this.y > canvas.height || this.y < 0) {
+        if (this.y > canvasHeight || this.y < 0) {
           this.speedY = -this.speedY;
         }
       }
 
       draw() {
         if (!ctx) return;
+        
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
         ctx.fillStyle = this.color;
@@ -98,6 +107,8 @@ const ParticlesBackground = () => {
 
     // Anima as partículas
     function animate() {
+      if (!ctx || !canvas) return;
+      
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       
       for (let i = 0; i < particlesArray.length; i++) {

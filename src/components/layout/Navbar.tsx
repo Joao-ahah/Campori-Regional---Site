@@ -53,7 +53,7 @@ const Navbar = () => {
     { title: 'Galeria', href: '/galeria' },
   ];
 
-  const isActive = (path) => {
+  const isActive = (path: string) => {
     return location.pathname === path;
   };
 

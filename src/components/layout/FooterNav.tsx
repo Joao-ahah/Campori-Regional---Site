@@ -12,7 +12,7 @@ const FooterNav = () => {
     { path: '/galeria', label: 'Galeria', icon: <Image size={20} /> },
   ];
 
-  const isActive = (path) => {
+  const isActive = (path: string) => {
     return location.pathname === path;
   };
 
