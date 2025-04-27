@@ -93,7 +93,7 @@ const LocationSection = () => {
           >
             <div className="rounded-lg overflow-hidden shadow-xl h-[350px] md:h-[500px] mb-6">
               <img 
-                src="https://images.unsplash.com/photo-1544984243-ec57ea16fe25?q=80&w=1374&auto=format&fit=crop"
+                src="/fotoentrada.jpeg"
                 alt="Parque Haras Martins - Local do Campori 2025"
                 className="w-full h-full object-cover"
               />
