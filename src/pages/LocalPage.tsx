@@ -102,7 +102,7 @@ const LocalPage = () => {
                 
                 <div>
                   <h4 className="text-campori-orange font-semibold mb-2">A partir de Jaguaretama</h4>
-                  <p className="text-gray-300 mb-2">Tempo aproximado: 2h de viagem</p>
+                  <p className="text-gray-300 mb-2">Tempo aproximado: 1h25 de viagem</p>
                   <p className="text-gray-300">
                     Pegue a CE-371 até o entroncamento com a BR-116 (cerca de 75km). 
                     Na BR-116, siga sentido norte por aproximadamente 50km até Tabuleiro do Norte.

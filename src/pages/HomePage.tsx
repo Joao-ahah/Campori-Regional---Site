@@ -30,7 +30,7 @@ const HomePage = () => {
         <p className="text-lg text-gray-300 max-w-4xl mx-auto mb-12">
           Um evento inesquecível de aventura, amizade e crescimento espiritual para os Desbravadores
           da 14ª Região. Marque em sua agenda: <strong>20 a 23 de novembro de 2025</strong> no
-          <strong> Parque Haras Martins, Jaguaribe-CE</strong>.
+          <strong> Parque Haras Martins, Tabuleiro do Norte-CE</strong>.
         </p>
         
         <div className="container-section relative z-10 mt-8 mb-16">
