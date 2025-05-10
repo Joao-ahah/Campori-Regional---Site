@@ -14,8 +14,8 @@ const bulletins = [
     id: 1,
     title: 'Boletim Informativo #1',
     description: 'Informações gerais sobre o Campori e cronograma das inscrições.',
-    date: 'Janeiro 2025',
-    file: '/bulletins/boletim-01.pdf', 
+    date: 'Maio 2025',
+    file: '/bulletins/BOLETIM - CAMPORI REGIONAL.pdf', 
   },
   // Comenta os outros boletins para exibir apenas o #1 que já existe
   
