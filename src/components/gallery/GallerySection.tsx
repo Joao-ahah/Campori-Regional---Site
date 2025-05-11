@@ -6,51 +6,75 @@ import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 const galleryImages = [
   {
     id: 1,
-    src: 'https://images.unsplash.com/photo-1539635278303-d4002c07eae3?q=80&w=1470&auto=format&fit=crop',
-    alt: 'Cerimônia de abertura',
-    category: 'Cerimônias',
+    src: '/foto1.jpeg',
+    alt: '',
+    category: '',
   },
   {
     id: 2,
-    src: 'https://images.unsplash.com/photo-1526772662000-3f88f10405ff?q=80&w=1474&auto=format&fit=crop',
-    alt: 'Atividades aquáticas',
-    category: 'Atividades',
+    src: '/foto2.jpeg',
+    alt: '',
+    category: '',
   },
   {
     id: 3,
-    src: 'https://images.unsplash.com/photo-1517594422361-5eeb8ae275a9?q=80&w=1470&auto=format&fit=crop',
-    alt: 'Momentos de adoração',
-    category: 'Espiritual',
+    src: '/foto3.jpeg',
+    alt: '',
+    category: '',
   },
   {
     id: 4,
-    src: 'https://images.unsplash.com/photo-1526772662000-3f88f10405ff?q=80&w=1474&auto=format&fit=crop',
-    alt: 'Jogos em equipe',
-    category: 'Atividades',
+    src: '/foto4.jpeg',
+    alt: '',
+    category: '',
   },
   {
     id: 5,
-    src: 'https://images.unsplash.com/photo-1526772662000-3f88f10405ff?q=80&w=1474&auto=format&fit=crop',
-    alt: 'Caminhada na natureza',
-    category: 'Aventura',
+    src: '/foto5.jpeg',
+    alt: '',
+    category: '',
   },
   {
     id: 6,
-    src: 'https://images.unsplash.com/photo-1504851149312-7a075b496cc7?q=80&w=1405&auto=format&fit=crop',
-    alt: 'Acampamento',
-    category: 'Estrutura',
+    src: '/foto6.jpeg',
+    alt: '',
+    category: '',
   },
   {
     id: 7,
-    src: 'https://images.unsplash.com/photo-1475483768296-6163e08872a1?q=80&w=1470&auto=format&fit=crop',
-    alt: 'Especialidades',
-    category: 'Aprendizado',
+    src: '/foto7.jpeg',
+    alt: '',
+    category: '',
   },
   {
     id: 8,
-    src: 'https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=1469&auto=format&fit=crop',
-    alt: 'Momento de confraternização',
-    category: 'Companheirismo',
+    src: '/foto8.jpeg',
+    alt: '',
+    category: '',
+  },
+  {
+    id: 9,
+    src: '/foto9.jpeg',
+    alt: '',
+    category: '',
+  },
+  {
+    id: 10,
+    src: '/foto10.jpeg',
+    alt: '',
+    category: '',
+  },
+  {
+    id: 11,
+    src: '/foto11.jpeg',
+    alt: '',
+    category: '',
+  },
+  {
+    id: 12,
+    src: '/foto12.jpeg',
+    alt: '',
+    category: '',
   },
 ];
 
@@ -136,7 +160,7 @@ const GallerySection = () => {
         <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4">
           <button
             onClick={closeLightbox}
-            className="absolute top-4 right-4 text-white hover:text-campori-orange transition-colors"
+            className="absolute top-4 right-4 text-white hover:text-campori-orange transition-colors z-50"
             aria-label="Fechar galeria"
           >
             <X size={32} />

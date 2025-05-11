@@ -15,10 +15,10 @@ const bulletins = [
     title: 'Boletim Informativo #1',
     description: 'Informações gerais sobre o Campori e cronograma das inscrições.',
     date: 'Maio 2025',
-    file: '/bulletins/BOLETIM - CAMPORI REGIONAL.pdf', 
+    file: '/bulletins/boletim-02.pdf', 
   },
   // Comenta os outros boletins para exibir apenas o #1 que já existe
-  
+  /*
   {
     id: 2,
     title: 'Boletim Informativo #2',
@@ -40,7 +40,7 @@ const bulletins = [
     date: 'Agosto 2025',
     file: '/bulletins/boletim-04.pdf',
   },
-  
+  */
 ];
 
 const BulletinsSection = () => {
