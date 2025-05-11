@@ -4,7 +4,7 @@ Este diretório deve conter as seguintes imagens para os posts do blog:
 
 - `inscricoes.jpg` - Imagem para o post "Abertas as inscrições para o Campori 2025"
 - `atividades.jpg` - Imagem para o post "Conheça as atividades previstas para o evento"
-- `tema.jpg` - Imagem para o post "Tema do Campori: 'Aventura com Propósito'"
+- `tema.jpg` - Imagem para o post "Tema do Campori: 'Eternamente Desbravador'"
 - `preparativos.jpg` - Imagem para o post "Preparativos para o grande evento"
 
 Recomendações para as imagens:

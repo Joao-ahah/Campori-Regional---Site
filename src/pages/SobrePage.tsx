@@ -61,7 +61,7 @@ const SobrePage = () => {
               transition={{ duration: 0.7, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-2xl font-bold text-white mb-4">Campori 2025: Uma Nova Jornada</h3>
+              <h3 className="text-2xl font-bold text-white mb-4">Campori 2025: Eternamente Desbravador</h3>
               <p className="text-gray-300 mb-6 leading-relaxed">
               Para 2025, estamos preparando uma edição especial com o tema "Eternamente Desbravador", celebrando a jornada de fé, coragem e serviço que marca a vida de cada Desbravador, incentivando-os a seguir firmes em sua missão por toda a vida
               </p>

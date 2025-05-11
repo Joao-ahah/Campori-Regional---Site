@@ -28,10 +28,10 @@ const Footer = () => {
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-campori-orange transition-colors">
                 <Facebook size={24} />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-campori-orange transition-colors">
+              <a href="https://www.instagram.com/14regiaoace?igsh=MWx1cHZnaDFvYm84ZQ==" target="_blank" rel="noopener noreferrer" className="text-white hover:text-campori-orange transition-colors">
                 <Instagram size={24} />
               </a>
-              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-campori-orange transition-colors">
+              <a href="https://www.youtube.com/@14regiaodbv-valedojaguarib55/videos" target="_blank" rel="noopener noreferrer" className="text-white hover:text-campori-orange transition-colors">
                 <Youtube size={24} />
               </a>
             </div>
