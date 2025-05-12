@@ -42,16 +42,16 @@ const BoletinsPage = () => {
             <DocumentCard 
               title="Manual do Participante"
               description="Informações essenciais e orientações para todos os participantes do Campori."
-              date="10/06/2024"
+              date="10/06/2025"
               fileType="PDF"
               fileSize="2.3 MB"
-              fileUrl="/documents/manual-participante.pdf"
+              fileUrl="#"
             />
             
             <DocumentCard 
               title="Formulário de Inscrição"
               description="Documento oficial para inscrição dos clubes. Preencha e envie conforme as instruções."
-              date="15/06/2024"
+              date="15/06/2025"
               fileType="DOC"
               fileSize="1.1 MB"
               fileUrl="#"
@@ -60,7 +60,7 @@ const BoletinsPage = () => {
             <DocumentCard 
               title="Termo de Responsabilidade"
               description="Documento obrigatório que deve ser assinado pelos responsáveis dos participantes menores de idade."
-              date="15/06/2024"
+              date="15/06/2025"
               fileType="PDF"
               fileSize="420 KB"
               fileUrl="#"
@@ -69,7 +69,7 @@ const BoletinsPage = () => {
             <DocumentCard 
               title="Lista de Materiais"
               description="Lista completa dos itens que cada participante e clube deve levar para o Campori."
-              date="20/06/2024"
+              date="20/06/2025"
               fileType="PDF"
               fileSize="1.5 MB"
               fileUrl="#"
@@ -78,7 +78,7 @@ const BoletinsPage = () => {
             <DocumentCard 
               title="Regulamento das Competições"
               description="Regras e orientações para as atividades competitivas que acontecerão durante o evento."
-              date="25/06/2024"
+              date="25/06/2025"
               fileType="PDF"
               fileSize="3.2 MB"
               fileUrl="#"
@@ -87,7 +87,7 @@ const BoletinsPage = () => {
             <DocumentCard 
               title="Mapas e Localizações"
               description="Mapas detalhados do local do evento, incluindo áreas de acampamento e pontos importantes."
-              date="30/06/2024"
+              date="30/06/2025"
               fileType="PDF"
               fileSize="5.7 MB"
               fileUrl="#"
@@ -95,7 +95,6 @@ const BoletinsPage = () => {
           </div>
         </div>
       </section>
-      
       <section className="py-20 bg-campori-dark-blue">
         <div className="container-section">
           <motion.h2
@@ -118,8 +117,7 @@ const BoletinsPage = () => {
             >
               <h3 className="text-xl font-semibold text-campori-orange mb-3">Quando os documentos devem ser enviados?</h3>
               <p className="text-gray-300">
-                Todos os documentos obrigatórios devem ser enviados até 30 dias antes do início do Campori. 
-                As inscrições com documentação incompleta não serão processadas. Recomendamos não deixar para a última hora.
+                Todos os documentos obrigatórios devem ser colocados na pasta da Secretária e apresentar na entrada no Campori. Recomendamos não deixar para a última hora.
               </p>
             </motion.div>
             
@@ -132,8 +130,7 @@ const BoletinsPage = () => {
             >
               <h3 className="text-xl font-semibold text-campori-orange mb-3">Como enviar os documentos?</h3>
               <p className="text-gray-300">
-                Os documentos podem ser enviados através do portal oficial do Campori 2025, na seção "Inscrições". 
-                Em caso de dificuldades, entre em contato com a secretaria regional através do e-mail oficial.
+                
               </p>
             </motion.div>
             
@@ -146,8 +143,7 @@ const BoletinsPage = () => {
             >
               <h3 className="text-xl font-semibold text-campori-orange mb-3">Quais documentos são obrigatórios?</h3>
               <p className="text-gray-300">
-                Os documentos obrigatórios incluem: formulário de inscrição do clube, termo de responsabilidade 
-                assinado para cada participante menor de idade, ficha médica e cópia do documento de identidade.
+                Os documentos obrigatórios consta no Boletim Informativo
               </p>
             </motion.div>
             
@@ -160,8 +156,7 @@ const BoletinsPage = () => {
             >
               <h3 className="text-xl font-semibold text-campori-orange mb-3">O que acontece se algum documento estiver faltando?</h3>
               <p className="text-gray-300">
-                A inscrição ficará pendente até que todos os documentos sejam apresentados. Se a documentação 
-                não for completada até o prazo final, a inscrição poderá ser cancelada e a vaga liberada para outro clube.
+                O membro não poderá participar do Campori Regional 2025
               </p>
             </motion.div>
           </div>
