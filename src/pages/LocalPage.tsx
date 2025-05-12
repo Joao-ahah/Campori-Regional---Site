@@ -71,7 +71,7 @@ const LocalPage = () => {
               </div>
               
               <div className="space-y-6 mt-4">
-                <div>
+                <div className="bg-campori-dark-blue p-4 rounded-lg mb-6">
                   <h4 className="text-campori-orange font-semibold mb-2">A partir de Russas - CE</h4>
                   <p className="text-gray-300 mb-2">Tempo aproximado: 1h de viagem</p>
                   <p className="text-gray-300">
@@ -80,7 +80,7 @@ const LocalPage = () => {
                   </p>
                 </div>
                 
-                <div>
+                <div className="bg-campori-dark-blue p-4 rounded-lg mb-6">
                   <h4 className="text-campori-orange font-semibold mb-2">A partir de Limoeiro do Norte</h4>
                   <p className="text-gray-300 mb-2">Tempo aproximado: 30min de viagem</p>
                   <p className="text-gray-300">
@@ -90,7 +90,7 @@ const LocalPage = () => {
                   </p>
                 </div>
                 
-                <div>
+                <div className="bg-campori-dark-blue p-4 rounded-lg mb-6">
                   <h4 className="text-campori-orange font-semibold mb-2">A partir de Morada Nova</h4>
                   <p className="text-gray-300 mb-2">Tempo aproximado: 1h45 de viagem</p>
                   <p className="text-gray-300">
@@ -100,7 +100,7 @@ const LocalPage = () => {
                   </p>
                 </div>
                 
-                <div>
+                <div className="bg-campori-dark-blue p-4 rounded-lg mb-6">
                   <h4 className="text-campori-orange font-semibold mb-2">A partir de Jaguaretama</h4>
                   <p className="text-gray-300 mb-2">Tempo aproximado: 1h25 de viagem</p>
                   <p className="text-gray-300">
@@ -109,6 +109,15 @@ const LocalPage = () => {
                     Siga as sinalizações para o Haras Martins na entrada da cidade.
                   </p>
                 </div>
+                <div className="bg-campori-dark-blue p-4 rounded-lg mb-6">
+                  <h4 className="text-campori-orange font-semibold mb-2">A partir de Quixeré</h4>
+                  <p className="text-gray-300 mb-2">Tempo aproximado: 26min de viagem</p>
+                  <p className="text-gray-300">
+                  Siga pela CE-377 em direção a Tabuleiro do Norte. São aproximadamente 18km de estrada. 
+                  Ao chegar à cidade, siga as placas e sinalizações para o Parque de Vaquejada Haras Martins.
+                  </p>
+                </div>
+
               </div>
             </motion.div>
           </div>

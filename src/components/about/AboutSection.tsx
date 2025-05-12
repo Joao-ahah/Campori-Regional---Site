@@ -58,13 +58,13 @@ const AboutSection = () => {
             <FeatureCard 
               icon={<Users className="text-campori-orange" size={36} />}
               title="Para Quem"
-              description="Clubes de Desbravadores de todo país, com idade entre 10 e 15 anos, devidamente uniformizados e regulares."
+              description="Para membros de Clubes de Desbravadores de todo o Vale Jaguaribe, com idade entre 10 e 15 anos, devidamente ativos e assegurados no SGC."
               imageSrc="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1432&auto=format&fit=crop"
             />
             <FeatureCard 
               icon={<Map className="text-campori-orange" size={36} />}
               title="Aventura"
-              description="Atividades na natureza, trilhas, atividades aquáticas e desafios que testam habilidades."
+              description="Atividades na natureza, Acampamentos, atividades missionárias e desafios que testam habilidades."
               imageSrc="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1470&auto=format&fit=crop"
             />
             <FeatureCard 

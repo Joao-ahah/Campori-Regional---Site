@@ -145,7 +145,7 @@ const GaleriaPage = () => {
           
           <div className="text-center mt-12">
             <motion.a
-              href="https://youtube.com/@campori2025"
+              href="https://www.youtube.com/@14regiaodbv-valedojaguarib55"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary inline-block"

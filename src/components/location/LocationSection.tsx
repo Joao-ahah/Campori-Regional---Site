@@ -104,7 +104,7 @@ const LocationSection = () => {
               <ul className="text-gray-300 list-disc list-inside space-y-1">
                 <li>Ampla área para acampamento</li>
                 <li>Palco para programações</li>
-                <li>Estrutura coberta para atividades</li>
+                <li>Estrutura para atividades</li>
                 <li>Áreas de alimentação</li>
                 <li>Banheiros e chuveiros</li>
                 <li>Posto médico</li>

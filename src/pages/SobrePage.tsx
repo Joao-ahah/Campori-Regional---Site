@@ -97,7 +97,7 @@ const SobrePage = () => {
               <h3 className="text-xl font-semibold text-campori-orange mb-3">Quem pode participar?</h3>
               <p className="text-gray-300">
                 Clubes de Desbravadores regularmente registrados, com membros entre 10 e 15 anos, 
-                acompanhados por seus líderes. Todos devem estar devidamente uniformizados.
+                acompanhados por seus líderes. Todos devem estar assegurados no sistema SGC.
               </p>
             </motion.div>
             
@@ -110,8 +110,8 @@ const SobrePage = () => {
             >
               <h3 className="text-xl font-semibold text-campori-orange mb-3">Como fazer a inscrição?</h3>
               <p className="text-gray-300">
-                As inscrições são feitas pelo diretor do clube através do portal oficial. 
-                Os detalhes completos estarão disponíveis na seção de inscrições do site.
+                As inscrições são feitas pelo diretor do clube através do Sistem de Gerenciamento de Clubes (SGC). 
+                Os detalhes completos estarão disponíveis no Boletim Informativo.
               </p>
             </motion.div>
             
@@ -138,8 +138,8 @@ const SobrePage = () => {
             >
               <h3 className="text-xl font-semibold text-campori-orange mb-3">Posso visitar o Campori?</h3>
               <p className="text-gray-300">
-                Sim, haverá dias específicos para visitantes. Consulte a programação oficial 
-                para mais informações sobre horários e procedimentos para visitantes.
+              Sim, haverá dia específico para visitantes. As visitas estão programadas para o sábado. 
+              As informações sobre horários e procedimentos para visitantes serão divulgadas nos próximos Boletins Informativos.
               </p>
             </motion.div>
           </div>
